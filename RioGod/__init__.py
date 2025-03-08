@@ -5,7 +5,7 @@ from pyrogram import Client
 from pymongo import MongoClient
 import motor.motor_asyncio
 
-FORMAT = "[Devine]: %(message)s"
+FORMAT = "[RioGod]: %(message)s"
 
 logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler('logs.txt'),
                                                     logging.StreamHandler()], format=FORMAT)
